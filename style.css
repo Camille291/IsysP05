@@ -1,0 +1,551 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+
+p
+{
+	font-weight: 300;
+	color: #111; 
+}
+
+header
+{
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	padding: 20px 10px;
+	width: 100%;
+	z-index: 1;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	transition: 0.5s;
+	background: #fff;
+}
+
+.logo
+{
+	color: #111;
+	font-weight: blod;
+	font-size: 2em;
+	text-decoration: none;
+}
+
+.logo span{
+	color: #fb911f;
+
+}
+
+.navbar{
+	display: flex;
+	position: relative;
+}
+
+.navbar li{
+	list-style: none;
+}
+
+.navbar a{
+	color: #111;
+	text-decoration: none;
+	margin-left: 30px;
+	font-weight: 700 ;
+}
+
+
+.btn_Compte{
+	padding: 10px 20px;
+	background: #fb911f;
+	margin-top: -10px;
+	text-transform: uppercase;
+}
+
+.btn_Compte:hover{
+	background: #d87710;
+	transition: ease-out;
+}
+
+.btn_Langue{
+	padding: 10px 5px;
+	background: #cdcdcd;
+	text-transform: uppercase;
+}
+
+.btn_Langue:hover{
+	background: #9b9b9b;
+	transition: ease-out;
+}
+
+header .navbar li a:hover{
+	color: #fb911f;
+	border-bottom:  2px solid #fb911f;
+}
+
+.banniere{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(./Images/pageheader-banner.png);
+	background-size: cover;
+}
+
+.banniere .contenu{
+	max-width: 70%;
+	text-align: center;
+
+}
+
+.banniere .contenu h2{
+	color: #000;
+	font-size: 3em;
+	text-transform: capitalize;
+}
+
+.contenu p:nth-child(2){
+	color: #000;
+	font-size: 2.2;
+}
+
+.btn_Boutique{
+	font-size: 1em;
+	color: #fff;
+	background-image: url(./Images/pageheader-banner.png);
+	background: #fb911f;
+	padding: 10px 20px;
+	display: inline-block;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	transition: 0.5s;
+	margin-left: 10px;
+
+}
+
+.btn_Boutique:hover{
+	letter-spacing: 4px;
+
+}
+
+.btn_Enregistrer{
+	font-size: 1em;
+	color: #fff;
+	background: #fb911f;
+	padding: 10px 20px;
+	display: inline-block;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	transition: 0.5s;
+	margin-left: 10px;
+
+}
+
+.btn_Enregistrer:hover{
+	letter-spacing: 4px;
+}
+
+
+section{
+	padding: 100px;
+}
+
+.row {
+  display: flex;
+}
+
+.row .col50 {
+  position: relative;
+  width: 30%; /* Ajustez cette valeur pour définir la largeur de la première partie */
+  justify-content: center;
+  align-items: center;
+}
+
+.row .col50:nth-child(2) {
+  width: 75%; /* Ajustez cette valeur pour définir la largeur de la deuxième partie */
+}
+
+
+.row .col50 h2{
+	margin-bottom: 20px;
+}
+
+
+.titre-texte{
+	color: #000;
+	font-size: 2em;
+	font-weight: 300px;
+	text-transform: capitalize;
+}
+
+
+.titre-texte span{
+	color: #fb911f;
+	font-size: 1.5em;
+	font-weight: 700px;
+
+}
+
+.row .col50 img{
+	position: relative;
+
+}
+
+
+.titre{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.Boutique{
+	margin-top: -100px;
+}
+
+.Boutique .contenu{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+
+.Boutique .contenu .box{
+	width: 350px;
+	margin: 20px;
+	border: 20px solid #fff ;
+	box-shadow: 20px 15px 35px rgba(0,0,0,0.8);
+}
+
+.Boutique .contenu .box .imbox{
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+
+.Boutique .contenu .box .imbox img{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+.Boutique .contenu .box .text{
+	text-align: center;
+	font-weight: 300px;
+	color: #111;
+}
+
+.Boutique .contenu .box .textgras{
+	text-align: center;
+	font-weight: 300px;
+	color: #111;
+}
+
+.Boutique .contenu .box .text h3{
+font-weight: 400;
+}
+
+/* Permet de definir l'aspect de Nous6  */
+.Nous6{
+	margin-top: -100px;
+}
+.Nous6 .contenu{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+.Nous6 .contenu .box{
+	width: 350px;
+	margin: 20px;
+	border: 20px solid #fff ;
+	box-shadow: 20px 15px 35px rgba(0,0,0,0.8);
+}
+.Nous6 .contenu .box .imbox{
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+.Nous6 .contenu .box .imbox img{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+.Nous6 .contenu .box .text{
+	text-align: center;
+	font-weight: 300px;
+	color: #111;
+}
+.Nous6 .contenu .box .textgras{
+	text-align: center;
+	font-weight: 300px;
+	color: #111;
+}
+.Nous6 .contenu .box .text h3{
+font-weight: 400;
+}
+
+/*  */
+
+/* Permet de definir l'aspect de Nous6  */
+.Nous{
+	margin-top: -100px;
+}
+.Nous .contenu{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+.Nous .contenu .box{
+	width: 350px;
+	margin: 20px;
+	border: 20px solid #fff ;
+	box-shadow: 20px 15px 35px rgba(0,0,0,0.8);
+}
+.Nous .contenu .box .imbox{
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+.Nous .contenu .box .imbox img{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+.Nous .contenu .box .text{
+	text-align: center;
+	font-weight: 300px;
+	color: #111;
+}
+.Nous .contenu .box .textgras{
+	text-align: center;
+	font-weight: 300px;
+	color: #111;
+}
+.Nous .contenu .box .text h3{
+font-weight: 400;
+}
+
+
+.Compte{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(./Images/page-banner4.png);
+	background-size: cover;
+}
+
+.AvisRecommandations {
+  background-image: url(./Images/pageheader-banner2.png);
+  background-size: cover;
+}
+
+
+.avis {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.avis-item {
+	width: 90%;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: justify;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: -20px; /* Ajoutez cette ligne pour une marge droite négative */
+}
+
+.avis-item h3 {
+  color: #333333;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.avis-item p {
+  color: #666666;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+
+.col501 {
+  margin-bottom: 40px;
+}
+
+.moncompteform{
+	padding: 75px 50px;
+	background: #fff;
+	box-shadow: 5px 15px 50px #rgba(0, 0, 0, 0.8);
+	max-width: 500px;
+	margin-top: 50px ;
+	justify-content: center;
+	align-items: center;
+	margin-left: 38%;
+}
+
+.moncompteform .intputboite{
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.moncompteform h3{
+	color: #111;
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+
+.moncompteform .inputboite input,
+.moncompteform .inputboite textarea{
+	width: 100%;
+	border: 1px solid #555;
+	padding: #111;
+	outline: none;
+	font-size: 16px;
+	font-weight: 300;
+	resize: none;
+	margin-top: 15px ;
+}
+
+.moncompteform .inputboite input[type="submit"]{
+	font-size: 1em;
+	font-weight: 700;
+	color: #fff;
+	background: #fb911f;
+	display: inline-block;
+	cursor: pointer;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	outline: none;
+	border: none;
+	transition: 0.5s;
+	max-width: 120px;
+	align-items: center;
+	align-content: center;
+
+}
+
+.News img{
+	background-size: cover;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
+	width: 100%;
+	background-position: unset;	
+}
+
+
+
+@media (max-width: 991px){
+header, header.sticky{
+	padding: 10px 20px;
+}
+header .navbar li{
+	margin-left: 0px;
+}
+
+header .navbar li a{
+	text-decoration: none;
+	color:  #111;
+	font-size: 1.6em;
+	font-weight: 300;
+}
+.navbar{
+	display: none;
+}
+
+section{
+	padding: 20px;
+}
+
+.banniere .contenuh2{
+	font-size: 2em;
+}
+
+.contenu p:nth-child(2){
+	font-size: 2em;
+
+}
+.expert{
+	margin-top: 0px;
+}
+
+.NotreProduit{
+	margin-top: 0px;
+}
+
+.News{
+	margin-top: 0px;
+}
+
+.DocumentsOfficiels{
+	margin-top: 0px;
+}
+
+
+.Nous6{
+	margin-top: 0px;
+}
+
+.row{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+	.row .col50{
+		position: relative;
+		width: 30%;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.row {
+		flex-direction: columns: ;
+	}	
+}
+
+
+.img img {
+  max-width: 100%; /* Largeur maximale de l'image sur 100% de la largeur du conteneur */
+  height: auto; /* Hauteur calculée automatiquement pour conserver les proportions */
+}
+
+video {
+  width: 93%; /* Largeur de la vidéo sur 100% de la largeur du conteneur */
+  height: auto; /* Hauteur calculée automatiquement pour conserver les proportions */
+}
+
+.poster-redimensionne {
+  width: 93%; /* Ajuste la largeur de l'image à 30% de sa taille originale */
+  height: auto; /* Permet de conserver les proportions de l'image lors de la réduction de sa largeur */
+}
